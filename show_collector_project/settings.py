@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'show_collector_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'tasks',
     }
 }
 
